@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebas_neue/bebasneue-regular-webfont.eot');
+    src: url('../fonts/bebas_neue/bebasneue-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas_neue/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebas_neue/bebasneue-regular-webfont.woff') format('woff'),
+         url('../fonts/bebas_neue/bebasneue-regular-webfont.ttf') format('truetype'),
+         url('../fonts/bebas_neue/bebasneue-regular-webfont.svg#bebas_neueregular') format('svg');
+}
+
+
+@font-face {
+    font-family: 'fuzzy_bubblesregular';
+    src: url('../fonts/fuzzy_bubbles/fuzzybubbles-regular-webfont.eot');
+    src: url('../fonts/fuzzy_bubbles/fuzzybubbles-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fuzzy_bubbles/fuzzybubbles-regular-webfont.woff2') format('woff2'),
+         url('../fonts/fuzzy_bubbles/fuzzybubbles-regular-webfont.woff') format('woff'),
+         url('../fonts/fuzzy_bubbles/fuzzybubbles-regular-webfont.ttf') format('truetype'),
+         url('../fonts/fuzzy_bubbles/fuzzybubbles-regular-webfont.svg#fuzzy_bubblesregular') format('svg');
+}

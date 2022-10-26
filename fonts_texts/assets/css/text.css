@@ -1,0 +1,84 @@
+body {
+    font-size: 16px;
+}
+
+h1   {
+    font-size: 2em;
+    font-family: 'bebas_neueregular', cursive;
+}
+
+p {
+    font-family: 1.5em;
+    font-family: 'fuzzy_bubblesregular', cursive;
+    color: black;
+}
+
+div {
+    font-size: 1em;
+    font-weight: 900;
+}
+
+section p + h2 + div {
+    background-color: red;
+}
+
+section div + h2 + div {
+    background-color: blue;
+}
+
+.t_transform p {
+    text-transform: capitalize;
+    background-color: yellow;
+    font-style: italic;
+}
+
+.f_transform p {
+    text-transform: uppercase;
+    background-color: aqua;
+}
+
+.t_decoration p {
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: overline;
+    background-color: chartreuse;
+}
+
+.l_height p {
+    line-height: 50px;
+}
+
+.l_spacing {
+    letter-spacing: 10px;
+    background-color: rosybrown;
+}
+
+.w_spacing {
+    background-color: blueviolet;
+    word-spacing: 20px;
+}
+
+.t_align {
+    text-align: center;
+    background-color: crimson;
+}
+
+.t_indent p {
+    text-indent: 50px;
+    background-color: coral;
+}
+
+.f_letter p {
+    background-color: aliceblue;
+}
+
+.f_letter p::first-letter{
+    font-weight: bold;
+    font-size: 2em;   
+}
+
+.f_line p:first-line {
+    color: red;
+    font-weight: bolder;
+    font-size: 2em;
+}
